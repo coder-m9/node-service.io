@@ -7,7 +7,9 @@ npm install - To install the libraries for the application
 nodemon - To run the application
 
 Node/NPM Version Used:
+
 Node Version  - 6.12.0
+
 NPM Version   - 3.10.10
 
 ### Configuraiion
