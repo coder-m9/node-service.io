@@ -1,0 +1,42 @@
+{
+  "name": "trailer-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "nyc --reporter=lcov --reporter=text-lcov mocha --recursive",
+    "docs": "aglio -i service.apib -o api.html"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bluebird": "^3.5.1",
+    "body-parser": "~1.18.2",
+    "config": "^1.29.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.5",
+    "express-device": "^0.4.2",
+    "fs": "0.0.1-security",
+    "jade": "~1.11.0",
+    "lodash": "^4.17.4",
+    "memory-cache": "^0.2.0",
+    "morgan": "~1.9.0",
+    "path": "^0.12.7",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "aglio": "^2.3.0",
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.0.0",
+    "nodemon": "^1.14.11",
+    "nyc": "^11.4.1"
+  }
+}

@@ -1,0 +1,19 @@
+FORMAT: 1A
+HOST: http://localhost:3000
+
+# Trailer API
+
+
+## Trailer [/api/v1/trailers?url={url}]
+
+### GET the Trailer [GET]
+
+Get the Trailer URL based on Viaplay URL.
+
++ Parameters
+    + url: `https://content.viaplay.se/pc-se/film/arrival-2016` (string, required) - Viaplay Movie URL
+
+
++ Response 200 (application/json)
+
+        {"url" : "https://www.youtube.com/watch?v=WH9F4WkvhRk"}

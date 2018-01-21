@@ -1,0 +1,6 @@
+{
+"url" : {
+  "movieDBOrg" : "https://api.themoviedb.org/3/movie"
+},
+"cacheExpirationTime" : 600
+}

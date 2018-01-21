@@ -1,0 +1,31 @@
+{
+	"id": 329865,
+	"results": [{
+		"id": "57aa147c92514111750014eb",
+		"iso_639_1": "en",
+		"iso_3166_1": "US",
+		"key": "gwqSi_ToNPs",
+		"name": "\"Global War\" Spot",
+		"site": "YouTube",
+		"size": 1080,
+		"type": "Teaser"
+	}, {
+		"id": "57d93c66c3a36852f4005907",
+		"iso_639_1": "en",
+		"iso_3166_1": "US",
+		"key": "tFMo3UJ4B4g",
+		"name": "Official Trailer",
+		"site": "YouTube",
+		"size": 1080,
+		"type": "Trailer"
+	}, {
+		"id": "5809330b9251415dfb011c00",
+		"iso_639_1": "en",
+		"iso_3166_1": "US",
+		"key": "WH9F4WkvhRk",
+		"name": "Official Tailer 2",
+		"site": "YouTube",
+		"size": 720,
+		"type": "Trailer"
+	}]
+}
