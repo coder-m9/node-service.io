@@ -36,7 +36,7 @@ Code coverage results will be stored automatically in ./coverage/lcov-report/ind
 ## API Docs
 
  API docs can be accessed at
-  http://localhost:3000/docs
+  http://localhost:3000/api/docs
 
 
 ###   Issues  & Improvements
