@@ -1,11 +1,10 @@
 ## Installation and Running the Application
 
-Give following commands to setup and run the application
-
-npm install - To install the libraries for the application
+Give 'npm install'  to install applicaiton dependencies
 nodemon - To run the application
+node ./bin/cluster.js - Run application in cluster mode
 
-Node/NPM Version Used:
+Node/NPM Version:
 Node Version  - 6.12.0
 NPM Version   - 3.10.10
 
@@ -24,21 +23,13 @@ Tests are written using Mocha and Chai.  Istanbul is used for Code Coverage.
 
 Code coverage results will be stored automatically in ./coverage/lcov-report/index.html (After running npm run test)
 
-## Features
-
-  *  Get the trailer URL for a given viaplay URL
-  *  In-memory Server Cache is used to cache the response
-
 
 ## API Docs
 
- API docs can be accessed at
-  http://localhost:3000/docs
+API docs created using aglio
+  http://localhost:3000/api/docs
 
 
-###   Issues  & Improvements
+###  Logs
 
-Following are the improvements can be made to this application
-1) Use a better cache technology like Redis instead server cache used currently.
-2) Improvement in recommending the trailer URL based on  criteria like device type and end user bandwidth .etc
-3) Basic logging is implemented. Logs are created in ./app.log file. Logging has to be improved.
+Logs are created in ./app.log file
